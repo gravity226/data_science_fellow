@@ -4,12 +4,12 @@ I chose to tackle the modeling portion of the problem.
 
 ### Approach
 
-This was a very short amount of time to make any good insights.  My approach to to make dummies for all of the relevant data and try to predict on the status column of the dataset.  
+This was a very short amount of time to make any good insights.  My approach was to make dummies for all of the relevant data and try to predict on the status column of the dataset.  
 
 Everything was completed in Python 2.7 using SKLearn.
 
 ### Conclusion
-This was a classification problem and my final accuracy score was .6839.  The most important features in my model from most import to least import were:
+This was a classification problem and my final accuracy score was .6839 out of 1.  The most important features in my model from most import to least important were:
 
 ```python
 [(u'passed', 0.21535078755951043),
@@ -44,4 +44,4 @@ This was a classification problem and my final accuracy score was .6839.  The mo
  (u'presale', 0.00017471366351279915)]
 ```
 
-In the end my model did learn something from the data I fed into it.  The most important features were where they passed or failed.  I would have liked more time to do some EDA on the data to see how each feature correlated with the other features.  I feel like I could have done a better job of feature engineering with more time as well.
+In the end my model did learn something from the data I fed into it.  The most important features were where they passed or failed.  I would have liked more time to do some EDA on the data to see how each feature correlated with the other features.  I feel like I could have done a better job of feature engineering with more time as well.  Additionally running a Grid Search on my parameters and Cross Validating the data would have been nice.
